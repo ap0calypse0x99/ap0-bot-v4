@@ -1,10 +1,6 @@
-import {
-  Client,
-  SlashCommandBuilder,
-  RESTPostAPIApplicationCommandsJSONBody,
-} from "discord.js";
+import { Client, RESTPostAPIApplicationCommandsJSONBody } from "discord.js";
 import { glob } from "glob";
-import { Command, SlashCommand } from "../types";
+import { Command } from "../types";
 
 module.exports = async (client: Client) => {
   const slashCommands: RESTPostAPIApplicationCommandsJSONBody[] = [];

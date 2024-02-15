@@ -2,7 +2,7 @@ import { Client } from "discord.js";
 import { Command } from "../../types";
 
 const command: Command = {
-  name: "",
+  name: "warn",
   execute: (message, args, client: Client) => {
     message.reply("Hello");
   },

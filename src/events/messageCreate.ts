@@ -13,10 +13,8 @@ const event: BotEvent = {
       let guildPrefix = await getGuildOption(message.guild, "prefix");
       if (guildPrefix) prefix = guildPrefix;
     }
-
     if (!message.content.startsWith(prefix)) return;
     if (message.channel.type !== ChannelType.GuildText) return;
-
     let args = message.content.substring(prefix.length).split(" ");
     let cmd = message.client.commands.get(args[0]);
     if (!cmd) return;
