@@ -19,6 +19,7 @@ const event: BotEvent = {
 
     let args = message.content.substring(prefix.length).split(" ");
     let cmd = message.client.commands.get(args[0]);
+    if (!cmd) return;
     let command = cmd.default;
     if (!command) {
       let commandFromAlias = message.client.commands.find((command: Command) =>

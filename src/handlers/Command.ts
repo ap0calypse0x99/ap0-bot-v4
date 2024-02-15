@@ -27,13 +27,10 @@ module.exports = async (client: Client) => {
   slashCommandFiles.map((val) => {
     const cmd = require(val);
     const command = cmd.default;
-    console.log(command);
     if (!command.name) return;
     slashCommands.push(command.command);
     client.slashCommands.set(command.name, command);
   });
-
-  console.log(slashCommandFiles);
 
   client.on("ready", async () => {
     const guild = client.guilds.cache.get(process.env.devGuild);
