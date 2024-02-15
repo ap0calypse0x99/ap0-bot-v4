@@ -15,7 +15,7 @@ Enhance your Discord server with this versatile bot designed for general utiliti
 
 1. **General Utilities:**
    - Retrieve general information.
-   - Get real-time weather updates.
+   - Get real-time updates.
    - Enjoy interactive and fun commands.
 
 2. **Moderation:**
