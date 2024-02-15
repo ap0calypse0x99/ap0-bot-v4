@@ -8,7 +8,6 @@ const event: BotEvent = {
       let command = interaction.client.slashCommands.get(
         interaction.commandName,
       );
-      console.log(command);
       let cooldown = interaction.client.cooldowns.get(
         `${interaction.commandName}-${interaction.user.username}`,
       );
