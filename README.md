@@ -37,8 +37,11 @@ Enhance your Discord server with this versatile bot designed for general utiliti
 This project is licensed under the [Non-Commercial License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Questions
-
-If you have any questions, feel free to contact me at ...
+  - If you have any questions please feel free to contact me at: ________
+    
+### The command handler for this bot is based on (with some updated changes):
+ - [discordjs-v14-template-ts](https://github.com/MericcaN41/discordjs-v14-template-ts)
+ - [djs-typescript-handler](https://github.com/limxuan/djs-typescript-handler/)
 
 ---
 
